@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	border: 1px solid blue;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 50%;
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: column;
+}
+
+.container strong{
+	text-align: center;
+	font-size: 64px;
+}
+
+.container .min{
+	display: none;
+}
+.container .large{
+	display: block;
+}
+
+@media screen and (max-width: 800px){
+	.container .large{
+		display: none;
+	}
+	.container .min{
+		display: block;
+	}
+}
