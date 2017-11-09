@@ -1,0 +1,43 @@
+.main{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	font-family: arial;
+}
+
+.botones{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container{
+	width: 50%;
+}
+
+.boton{
+	border-radius:  10px;
+	height: 250px;
+	width: 250px;
+	border: solid 2px purple;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: purple;
+}
+.boton:focus{
+	background-color: purple;
+	color: white;
+}
+
+
+strong{
+	font-size: 64px;
+
+}
+
+span{
+	font-size: 32px;
+}

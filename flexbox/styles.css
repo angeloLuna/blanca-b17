@@ -1,0 +1,60 @@
+.container{
+	display: flex;
+	border: 5px solid black;
+	height: 100vh;
+	justify-content: space-around;
+	/*align-items: flex-end;*/
+	align-items: center;
+}
+
+.caja{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	padding: 10px;
+	width: 100px;
+}
+
+.box10{
+	background-color: blue;
+}
+
+.box1{
+	background-color: red;
+}
+
+.box2{
+	background-color: yellow;
+}
+
+.box3{
+	background-color: purple;
+}
+
+.box4{
+	background-color: white;
+}
+
+.box5{
+	background-color: green;
+}
+
+.box6{
+	background-color: peru;
+}
+
+.box7{
+	background-color: blue;
+}
+
+.box8{
+	background-color: black;
+}
+
+.box9{
+	background-color: green;
+}
+
+.box2{
+	background-color: pink;
+}
