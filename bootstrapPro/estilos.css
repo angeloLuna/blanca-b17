@@ -1,0 +1,33 @@
+#carouselExampleControls{
+	height: 500px;
+	overflow: hidden;
+}
+
+
+.card .img-container{
+	height: auto;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.seccion-personajes{
+	padding-top: 30px;
+}
+
+.sinopsis-section{
+	background-image: url("http://www.comicsbeat.com/wp-content/uploads/2017/04/AmGodsBanner.jpg");
+	color: white;
+	background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,.3);
+}
+
+.boton-play{
+	font-size: 70px;
+}
+
+.fondo-transparente{
+	padding: 50px;
+	background-color: rgba(0,0,0,.3);
+}
+

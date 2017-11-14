@@ -1,0 +1,21 @@
+.cajita{
+	border: 1px solid red;
+	width: 20%;
+	display: flex;
+	/*justify-content: center;*/
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.principal{
+	border: 1px solid blue;
+	display: flex;
+	justify-content: center;
+}
+
+.secundaria{
+	display: flex;
+	justify-content: center;
+}
+
