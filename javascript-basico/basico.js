@@ -58,11 +58,12 @@
 // var d = "gatitos"
 
 // Mostramos distintos elementos en un solo console.log("texto", variable, tipodevariable)
-// console.log( "la variable a es: ", a, typeof(a) )
-// console.log( "la variable b es: ", b, typeof(b) )
-// console.log( "la variable c es: ", c, typeof(c) )
-// console.log( "la variable d es: ", d, typeof(d) )
+// console.log( "la variable a es: ", a, typeof(a))
+// console.log( "la variable b es: ", b, typeof(b))
+// console.log( "la variable c es: ", c, typeof(c))
+// console.log( "la variable d es: ", d, typeof(d))
 // -----------------------
+
 
 
 
