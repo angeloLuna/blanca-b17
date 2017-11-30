@@ -5,3 +5,17 @@
 .opcion{
 	height: auto;
 }
+
+.opcion-selected{
+	border: 2px solid blue;
+}
+
+
+.opciones {
+	margin-bottom: 30px;
+	border: 1px solid;
+}
+
+.boton-jugar{
+	margin-bottom: 200px;
+}

@@ -31,33 +31,65 @@
 
 	<!-- Sección principal -->
 	<div class="container">
+		
 		<!-- titulo -->
 		<div class="titulo row justify-content-center">
 			<h1>Rock, paper, scissors</h1>
 		</div>
+
 		<!-- Contenido principal -->
 		<div class="opciones row justify-content-center">
-			
-			<div class="card col-md-3 opcion justify-content-center">
+			<h2 class="row col-12">Jugador 1</h2>
+			<!-- Opcion de jugador	 -->
+			<div class="card col-md-3 opcion justify-content-center ">
 				<label for="rock1">
 					<img class="card-img-top" src="rock.png" alt="Card image cap">
-	  	      		<input class="form-check-input" type="radio" name="jugador1" id="rock1" value="option1">
+	  	      		<input class="form-check-input" type="radio" name="jugador1" id="rock1" value="option1" onclick="selectJugador1()">
 				</label>
 			</div>
 			
 			<div class="card col-md-3 opcion offset-md-1 justify-content-center">
 				<label for="paper1">
 					<img class="card-img-top "  src="paper.png" alt="Card image cap">
-	  	      		<input class="form-check-input" type="radio" name="jugador1" id="paper1" value="option2">
+	  	      		<input class="form-check-input" type="radio" name="jugador1" id="paper1" value="option2"  onclick="selectJugador1()">
 				</label>
 			</div>
 
-			<div class="card col-md-3 opcion offset-md-1 justify-content-center">
+			<div class="card col-md-3 opcion offset-md-1 justify-content-center" >
 				<label for="scissors1">
 					<img class="card-img-top "  src="scissors.png" alt="Card image cap">
-	  	      		<input class="form-check-input" type="radio" name="jugador1" id="scissors1" value="option3">
+	  	      		<input class="form-check-input" type="radio" name="jugador1" id="scissors1" value="option3" onclick="selectJugador1()">
 				</label>
 			</div>
+		</div>
+
+		<div class="opciones row justify-content-center">
+			<h2 class="row col-12">Jugador 2</h2>
+			<!-- Opcion de jugador	 -->
+			<div class="card col-md-3 opcion justify-content-center ">
+				<label for="rock2">
+					<img class="card-img-top" src="rock.png" alt="Card image cap">
+	  	      		<input class="form-check-input" type="radio" name="jugador2" id="rock2" value="option1" onclick="selectJugador2()">
+				</label>
+			</div>
+			
+			<div class="card col-md-3 opcion offset-md-1 justify-content-center">
+				<label for="paper2">
+					<img class="card-img-top "  src="paper.png" alt="Card image cap">
+	  	      		<input class="form-check-input" type="radio" name="jugador2" id="paper2" value="option2"  onclick="selectJugador2()">
+				</label>
+			</div>
+
+			<div class="card col-md-3 opcion offset-md-1 justify-content-center" >
+				<label for="scissors2">
+					<img class="card-img-top "  src="scissors.png" alt="Card image cap">
+	  	      		<input class="form-check-input" type="radio" name="jugador2" id="scissors2" value="option3" onclick="selectJugador2()">
+				</label>
+			</div>
+		</div>
+
+		<div class="boton-jugar">
+			<button class="row col-4 offset-4">Jugar</button>
 		</div>
 		
 	</div>
@@ -69,5 +101,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
